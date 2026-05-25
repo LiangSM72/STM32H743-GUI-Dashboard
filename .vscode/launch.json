@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/STM32H743_GUI.elf",
+            "configFiles": [
+                "/opt/openocd/scripts/board/stm32h7-eval.cfg"
+            ],
+            "svdFile": "${workspaceFolder}/STM32H743.svd",
+            "device": "STM32H743XIH6",
+            "showDevDebugOutput": "parsed",
+            "preLaunchTask": "build"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "STM32H743",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/src/drivers",
+                "/opt/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include"
+            ],
+            "defines": [
+                "STM32H743xx",
+                "USE_HAL_DRIVER"
+            ],
+            "compilerPath": "/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
